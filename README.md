@@ -2,14 +2,16 @@
 
 2. Create a Helm Chart project that boots below servers:
 
+
 traefik  (TCP 80) that routes /customer to and /admin
 asterisk (TCP/UDP 5060)
 web-customer docker image: php-apache (/customer)
 web-admin    docker image: php-apache (/admin)
 mysql or mariadb
+
 you can create a bootstrap.sh that boots the project.
 
-Share the result with user: Iraj - Leilinejad on GitHub in private mode.
+Share the result with user: Iraj - Leilinezhad on GitHub in private mode.
 
 Typically this task could take 3 to 6 hours for someone who doesn't know about Asterisk or SIP protocol.
 
